@@ -26,3 +26,31 @@ for age,group in gdf:
 # 4) What is aggregation?
 print(df['age'].agg(sum))
 print(df.groupby('age').agg('count'))
+
+# 5) How do you handle missing values?
+dff=pd.DataFrame({
+    'name':['a',None,'c'],
+    'salary':[1000,2000,3000],
+    'age':[23,20,24]
+})
+dff[dff.isna()]='b'
+print(dff)
+
+# 6) How do you join two DataFrames?
+mergeDf=df.merge(dff,'left','age')
+print(mergeDf)                      # Merge work column basis
+joinedDf=df.join(dff,'age','left',lsuffix='x',rsuffix='y')  # Join work index basis
+print(joinedDf)
+
+# 7) What is concat?
+print(pd.concat([df, dff]))
+
+# 8) What is indexing?
+print(df.loc['a'])
+print(df.iloc[0])
+
+# 9) what is vectorization?
+print(df['age'] + 1)
+
+# 10) Why is Pandas slow for large data?
+# Single cpu, work on RAM, GIL issue and more....
