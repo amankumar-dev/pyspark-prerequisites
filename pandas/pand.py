@@ -22,3 +22,7 @@ df=pd.DataFrame({
 gdf=df.groupby('age')
 for age,group in gdf:
     print(group)
+    
+# 4) What is aggregation?
+print(df['age'].agg(sum))
+print(df.groupby('age').agg('count'))
