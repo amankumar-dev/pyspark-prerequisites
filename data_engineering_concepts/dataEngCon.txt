@@ -1,0 +1,35 @@
+1) What is Big Data?
+Big Data is data that becomes too large, too fast, or too complex to be efficiently processed by traditional single-machine systems like PostgreSQL. That's why we need to use distributed system to work faster.
+
+2) What are 3Vs (Volume, Velocity, Variety)?
+Volume -> Huge amount of data.
+Velocity -> Speed at which data is generated.
+Variety -> Different types of data.
+
+3) Why can't a single machine process huge data?
+A single machine is limited by:
+Storage, RAM, CPU, Disk I/O, Reliability
+Distributed systems solve this by:
+Splitting data, Processing in parallel, Scaling horizontally
+
+4) What is distributed computing?
+Distributed computing means solving one big problem by dividing it across multiple machines that work together over a network.
+
+5) What is Parallel processing? 
+Parallel processing means doing multiple tasks at the same time instead of one after another.
+
+6) What is cluster?
+A cluster is a group of multiple computers (called nodes) connected together that work as a single system.
+
+7) What is node?
+A node is an individual machine (physical or virtual) that is part of a cluster.
+
+8) What is driver vs worker?
+A Worker node is a machine in the cluster that runs executors.
+Driver ek process hai jo tumhari Spark application ko control karta hai.
+
+9) What is fault tolerance?
+Fault tolerance is the ability of a distributed system to continue functioning properly even when one or more components fail.
+
+10) What is horizontal scaling?
+Horizontal scaling ka matlab hai system ki capacity badhane ke liye aur machines add karna.
