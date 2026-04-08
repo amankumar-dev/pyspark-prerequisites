@@ -1,0 +1,33 @@
+1) What is MapReduce?
+MapReduce is a programming model used to process very large amounts of data in a distributed way (across multiple machines).
+
+2) What is Shuffle?
+Data ka network ke through ek node se dusre node me move hona, taaki same key wala data ek jagah aa sake.
+
+3) What is Partition?
+Data ko parts mai toddna partition hota hai 
+
+4) What is Cluster?
+Wo group machines ka jo milke kaam kr raha hai 
+
+Real-Life	                Distributed-System
+1000 papers	          ->    Dataset
+100 paper bundle	  ->    Partition
+Teacher	              ->    Node
+Paper checking	      ->    Task
+Sab teachers ka group ->	Cluster
+
+5) What is lazy evaluation?
+Jab tak result ki zarurat na ho, tab tak system actual computation start nahi karta.
+
+6) What is immutability?
+Immutability means once an object is created, it cannot be modified; instead, any operation creates a new object.RDDs aur DataFrames immutable hote hain.
+
+7) What is DAG (Directed Acyclic Graph)?
+DAG ek logical execution plan hota hai jo batata hai ki transformations kis order me aur kis dependency ke saath execute honge.
+
+8) What is in-memory computation?
+Data ko disk pe baar-baar read/write karne ke bajaye RAM (memory) me process karna.
+
+9) What is caching?
+Frequently used data ko memory (RAM) me temporarily store karna taaki future me fast access mil sake.

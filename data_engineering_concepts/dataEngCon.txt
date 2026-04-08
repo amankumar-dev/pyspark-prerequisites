@@ -33,3 +33,12 @@ Fault tolerance is the ability of a distributed system to continue functioning p
 
 10) What is horizontal scaling?
 Horizontal scaling ka matlab hai system ki capacity badhane ke liye aur machines add karna.
+
+11) What is Spark?
+It is a distributed data processing engine/ tool which work on large amount of data.
+
+12) What is spark program?
+It is a program which is used to write spark.
+
+13) What is spark Application?
+It is a application which is created by spark program.
