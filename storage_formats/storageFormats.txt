@@ -15,3 +15,4 @@ Compression is the process of reducing the size of data so that it takes less st
 
 6) What is Schema?
 Schema is the structure of data that defines column names, data types, and how data is organized in a dataset or database.
+
