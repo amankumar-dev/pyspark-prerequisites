@@ -1,0 +1,17 @@
+1) What is CSV?
+It’s a plain text file format used to store tabular data (like rows and columns — same as Excel or a database table).
+
+2) What is Parquet?
+Parquet is a columnar storage file format used in big data systems that stores data in a compressed binary format with schema support, enabling faster analytical queries compared to row-based formats like CSV.
+
+3) Why is Parquet faster?
+It stores data column-wise, so when a query needs only specific columns, it reads only those columns instead of the entire dataset.
+
+4) What is Columnar Storage?
+Columnar storage is a data storage technique where data is stored column by column instead of row by row.
+
+5) What is Compression?
+Compression is the process of reducing the size of data so that it takes less storage space and can be transferred faster.
+
+6) What is Schema?
+Schema is the structure of data that defines column names, data types, and how data is organized in a dataset or database.
